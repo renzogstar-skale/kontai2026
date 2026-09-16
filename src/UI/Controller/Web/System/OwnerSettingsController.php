@@ -114,3 +114,4 @@ final class OwnerSettingsController
         return Response::redirect($this->base() . '/admin/owner-settings?success=1');
     }
 }
+

@@ -81,3 +81,4 @@ final class AvailabilityController
         return Response::empty();
     }
 }
+

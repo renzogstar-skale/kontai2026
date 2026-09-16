@@ -71,3 +71,4 @@ ob_start();
 echo Card::make()->body(ob_get_clean())->render();
 ?>
 <script src="<?= $BASE_URL ?>/assets/js/modules/shift-wage-preview.js"></script>
+

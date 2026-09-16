@@ -59,3 +59,4 @@ final class Pagination implements ComponentInterface
         return $html;
     }
 }
+

@@ -157,3 +157,4 @@ final class FilterBar implements ComponentInterface
         return $html;
     }
 }
+

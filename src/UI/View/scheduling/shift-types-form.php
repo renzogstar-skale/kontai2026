@@ -34,3 +34,4 @@ echo ' <a href="' . back_url(route_url('admin.shift_types')) . '" class="btn btn
 echo '</div></form>';
 echo Card::make()->body(ob_get_clean())->render();
 ?>
+

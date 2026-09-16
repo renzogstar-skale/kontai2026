@@ -80,3 +80,4 @@ echo Form::make()->end();
 $body = ob_get_clean();
 echo Card::make()->narrow()->body($body)->render();
 ?>
+

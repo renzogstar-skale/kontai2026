@@ -13,3 +13,4 @@ trait HasBaseUrl
         return ($base === '.' || $base === '/') ? '' : $base;
     }
 }
+

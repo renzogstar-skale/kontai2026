@@ -65,3 +65,4 @@
     window.bulkSelectAll  = bulkSelectAll;
     window.bulkUpdateBar  = bulkUpdateBar;
 })();
+

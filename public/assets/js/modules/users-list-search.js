@@ -26,3 +26,4 @@
     input.addEventListener('input', applyFilter);
     applyFilter(); // applique la valeur pré-remplie par un lien direct (?search=...)
 })();
+

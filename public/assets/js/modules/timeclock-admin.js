@@ -36,3 +36,4 @@
         if (e.key === 'Escape') modal.classList.remove('open');
     });
 })();
+

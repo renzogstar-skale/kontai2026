@@ -312,3 +312,4 @@ document.addEventListener('click', function (e) {
     thumb.style.setProperty('--pos', index);
     setTimeout(function () { window.location.href = link.href; }, 180);
 });
+

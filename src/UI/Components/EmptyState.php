@@ -34,3 +34,4 @@ final class EmptyState implements ComponentInterface
         return $html;
     }
 }
+

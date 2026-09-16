@@ -45,3 +45,4 @@ if (isset($user)) {
 
     $role = __(['admin' => 'role_owner', 'manager' => 'role_manager', 'staff' => 'role_employee'][$membership['role'] ?? 'staff'] ?? 'role_employee');
 }
+

@@ -60,3 +60,4 @@
         if (suggestion) furigana.value = suggestion;
     });
 })();
+

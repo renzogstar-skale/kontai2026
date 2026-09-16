@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="csrf-token" content="<?= htmlspecialchars(csrf_token(), ENT_QUOTES) ?>">
-    <title><?= htmlspecialchars($title ?? 'Kintai') ?> — Kintai</title>
+    <title><?= htmlspecialchars($title ?? 'Kontai') ?> — Kontai</title>
     <link rel="stylesheet" href="<?= $BASE_URL ?>/assets/css/app.css">
 </head>
 <body class="guest-layout">
     <div class="guest-container">
         <div class="guest-brand">
             <img src="<?= $BASE_URL ?>/assets/img/mascot/wave-hello.png" alt="<?= __('mascot_alt') ?>" class="guest-brand__mascot">
-            <h1>Kintai</h1>
+            <h1>Kontai</h1>
             <?php if (!empty($app_subtitle)): ?>
                 <p class="guest-brand__company"><?= htmlspecialchars($app_subtitle, ENT_QUOTES) ?></p>
             <?php else: ?>
@@ -27,3 +27,4 @@
     </div>
 </body>
 </html>
+

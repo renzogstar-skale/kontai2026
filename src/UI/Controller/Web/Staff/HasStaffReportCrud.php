@@ -343,3 +343,4 @@ trait HasStaffReportCrud
         return $managers;
     }
 }
+

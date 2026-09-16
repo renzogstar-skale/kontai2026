@@ -7,3 +7,4 @@ function adminDashCustomize() {
     if (!p) return;
     p.style.display = p.style.display === 'none' ? 'block' : 'none';
 }
+

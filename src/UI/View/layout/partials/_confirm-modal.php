@@ -16,3 +16,4 @@ use kintai\UI\Components\Modal;
     )
     ->render() ?>
 <script src="<?= $BASE_URL ?>/assets/js/modules/confirm-modal.js"></script>
+

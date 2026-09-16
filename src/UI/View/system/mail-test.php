@@ -72,7 +72,7 @@ ob_start();
     ->body('<p class="mb-sm text-muted">' . __('mailtest_htaccess_intro') . '</p>
         <pre class="code-block">SetEnv MAIL_DRIVER      smtp
 SetEnv MAIL_FROM_ADDRESS noreply@votredomaine.com
-SetEnv MAIL_FROM_NAME   Kintai
+SetEnv MAIL_FROM_NAME   Kontai
 SetEnv MAIL_HOST        pro1.mail.ovh.net
 SetEnv MAIL_PORT        465
 SetEnv MAIL_USERNAME    noreply@votredomaine.com
@@ -97,3 +97,4 @@ ob_start();
     </div>
 </form>
 <?php echo Card::make()->header(__('mailtest_send_card'))->body(ob_get_clean())->render(); ?>
+

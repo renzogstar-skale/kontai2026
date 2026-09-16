@@ -50,7 +50,7 @@ final class MailTestController
     {
         $config      = $this->loadConfig();
         $fromAddress = $config['from']['address'] ?? 'noreply@example.com';
-        $fromName    = $config['from']['name']    ?? 'Kintai';
+        $fromName    = $config['from']['name']    ?? 'Kontai';
         $subject     = __('mail_test_subject', ['date' => date('Y-m-d H:i:s')]);
         $body        = '<p>' . __('mail_test_body_intro') . '</p>'
                      . '<p><small>' . __('mail_test_body_sent_at', [
@@ -106,3 +106,4 @@ final class MailTestController
         ];
     }
 }
+

@@ -81,3 +81,4 @@ final class Flash implements ComponentInterface
         return $alert->render();
     }
 }
+

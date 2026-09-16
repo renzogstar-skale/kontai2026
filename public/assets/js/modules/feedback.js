@@ -1,7 +1,7 @@
 'use strict';
 (function () {
     var _cfgEl = document.getElementById('kintai-feedback-data');
-    var cfg  = _cfgEl ? JSON.parse(_cfgEl.textContent || '{}') : (window.KintaiFeedback || {});
+    var cfg  = _cfgEl ? JSON.parse(_cfgEl.textContent || '{}') : (window.KontaiFeedback || {});
     var BASE = cfg.baseUrl || '';
     var i18n = cfg.i18n   || {};
 
@@ -74,3 +74,4 @@
         window.addEventListener('DOMContentLoaded', function () { fbOpen(); });
     }
 }());
+

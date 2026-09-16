@@ -42,3 +42,4 @@
         <p><?= __('privacy_contact_body') ?></p>
     </div>
 </div>
+

@@ -247,3 +247,4 @@ arsort($chartCosts);
 <div class="erep-print-footer">
     <?= htmlspecialchars(__('report_employees')) ?> — <?= htmlspecialchars($store['name'] ?? '') ?> — <?= htmlspecialchars($since) ?> / <?= htmlspecialchars($today) ?>
 </div>
+

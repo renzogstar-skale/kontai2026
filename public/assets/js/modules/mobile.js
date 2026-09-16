@@ -21,3 +21,4 @@ function mobDrawerClose() {
 document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') mobDrawerClose();
 });
+

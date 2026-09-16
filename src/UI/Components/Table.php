@@ -227,3 +227,4 @@ final class Table implements ComponentInterface
         return $html;
     }
 }
+

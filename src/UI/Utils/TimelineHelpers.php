@@ -86,3 +86,4 @@ final class TimelineHelpers
         return ['total' => $totalPay, 'has_rate' => $hasRate, 'net_minutes' => $netMin, 'items' => $items];
     }
 }
+

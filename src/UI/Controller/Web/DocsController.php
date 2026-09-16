@@ -105,3 +105,4 @@ final class DocsController
         return Response::json($result, $result['ok'] ? 200 : 500);
     }
 }
+

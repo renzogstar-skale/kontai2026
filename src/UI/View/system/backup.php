@@ -134,3 +134,4 @@ ob_start();
     <p class="form-hint"><?= __('reset_factory_hint') ?></p>
 </form>
 <?php echo Card::make()->header(__('reset_title'))->body(ob_get_clean())->render(); ?>
+

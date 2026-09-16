@@ -131,3 +131,4 @@ window.KanaSearch = (function () {
 
     return { toKatakana: toKatakana, romajiToKatakana: romajiToKatakana, matches: matches };
 })();
+

@@ -27,3 +27,4 @@ class AdminSettingsController extends Controller
         ]);
     }
 }
+

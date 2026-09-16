@@ -39,3 +39,4 @@ trait HasStoreFeatureCheck
         return Response::redirect($this->base() . '/employee?error=feature_disabled');
     }
 }
+

@@ -25,3 +25,4 @@ function dashCustomizeToggle() {
     var p = document.getElementById('dash-customize');
     if (p) p.style.display = p.style.display === 'none' ? 'block' : 'none';
 }
+

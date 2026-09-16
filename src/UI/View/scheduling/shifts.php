@@ -234,3 +234,4 @@ foreach ($shifts as $s) {
      data-msg-selected="<?= htmlspecialchars(__('selected')) ?>"
      hidden></div>
 <script src="<?= $BASE_URL ?>/assets/js/modules/shifts-bulk.js"></script>
+

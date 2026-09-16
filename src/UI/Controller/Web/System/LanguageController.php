@@ -190,3 +190,4 @@ final class LanguageController
         return Response::json(['ok' => true]);
     }
 }
+

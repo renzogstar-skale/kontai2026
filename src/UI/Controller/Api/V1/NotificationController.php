@@ -78,3 +78,4 @@ final class NotificationController
         return $item;
     }
 }
+

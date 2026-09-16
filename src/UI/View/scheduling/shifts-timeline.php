@@ -559,3 +559,4 @@ ob_start();
 <script src="<?= $BASE_URL ?>/assets/js/modules/timeline-diag.js"></script>
 <script src="<?= $BASE_URL ?>/assets/js/modules/timeline-drag.js"></script>
 <?php endif; ?>
+

@@ -106,3 +106,4 @@ final class ActivityController
         ], 'layout.app'));
     }
 }
+

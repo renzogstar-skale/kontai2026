@@ -487,3 +487,4 @@ echo Modal::make('—', '<div id="al-detail-content"></div>')
     });
 })();
 </script>
+

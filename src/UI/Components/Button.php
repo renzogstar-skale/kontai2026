@@ -78,3 +78,4 @@ final class Button implements ComponentInterface
         return $html;
     }
 }
+

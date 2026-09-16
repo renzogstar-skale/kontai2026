@@ -436,7 +436,7 @@ final class AdminStoreController
         fprintf($buf, "\xEF\xBB\xBF");
         $put = fn(array $row) => fputcsv($buf, $row, ';');
 
-        $put(['# Kintai — Export statistiques']);
+        $put(['# Kontai — Export statistiques']);
         $put(['Magasin', $name]);
         $put(['Période', "{$since} → {$today} ({$period} jours)"]);
         $put([]);
@@ -586,3 +586,4 @@ final class AdminStoreController
     }
 
 }
+

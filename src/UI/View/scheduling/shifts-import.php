@@ -45,3 +45,4 @@ ob_start();
 $body = ob_get_clean();
 echo Card::make()->narrow()->header(__('excel_file_label'))->body($body)->render();
 ?>
+

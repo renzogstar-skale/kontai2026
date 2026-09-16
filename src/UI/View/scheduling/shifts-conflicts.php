@@ -272,3 +272,4 @@ echo $tsTable->render();
 <?php endif; ?>
 
 <script src="<?= $BASE_URL ?>/assets/js/modules/type-badges.js"></script>
+

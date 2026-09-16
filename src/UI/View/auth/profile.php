@@ -492,3 +492,4 @@ echo Card::make(__('privacy_policy_title'))
 ?>
 
 <?php endif; ?>
+

@@ -112,3 +112,4 @@ $_total = (int) ($timeoff !== null ? count($timeoff) : 0)
 </div>
 <?php endif; ?>
 <?php unset($_total); ?>
+

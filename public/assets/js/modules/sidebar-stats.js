@@ -21,3 +21,4 @@ function sbDetailClose() {
 document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') sbDetailClose();
 });
+

@@ -94,3 +94,4 @@ $code = $language['code'];
     'confirmDelete' => __('translation_confirm_delete_key'),
 ], JSON_UNESCAPED_UNICODE | JSON_HEX_TAG) ?></script>
 <script src="<?= $BASE_URL ?>/assets/js/modules/language-editor.js"></script>
+

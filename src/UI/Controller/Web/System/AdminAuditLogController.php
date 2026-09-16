@@ -24,3 +24,4 @@ class AdminAuditLogController extends Controller
         ]);
     }
 }
+

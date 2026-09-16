@@ -637,3 +637,4 @@ final class EmployeeController
         return Response::redirect($this->base() . '/profile?tab=nav&success=1');
     }
 }
+

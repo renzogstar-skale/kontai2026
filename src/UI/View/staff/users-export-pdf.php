@@ -74,9 +74,10 @@ td { padding: 4pt 5pt; border: 1px solid #ccc; font-size: 7.5pt; vertical-align:
 </table>
 
 <div class="footer">
-    <?= __('pdf_generated_by') ?> Kintai — <?= htmlspecialchars($generated_at) ?>
+    <?= __('pdf_generated_by') ?> Kontai — <?= htmlspecialchars($generated_at) ?>
 </div>
 
 </div>
 </body>
 </html>
+

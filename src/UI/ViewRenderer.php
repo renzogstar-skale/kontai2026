@@ -94,3 +94,4 @@ final class ViewRenderer
         return $this->basePath . DIRECTORY_SEPARATOR . $relative;
     }
 }
+

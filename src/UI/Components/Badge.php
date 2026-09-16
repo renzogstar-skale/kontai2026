@@ -67,3 +67,4 @@ final class Badge implements ComponentInterface
             . htmlspecialchars($this->label) . '</span>';
     }
 }
+

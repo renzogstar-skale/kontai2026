@@ -111,3 +111,4 @@ final class AppResetController
         @file_put_contents($logDir . '/reset.log', $entry, FILE_APPEND | LOCK_EX);
     }
 }
+

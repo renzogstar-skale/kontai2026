@@ -19,7 +19,7 @@ export function login(email: string, password: string): Promise<LoginResponse> {
   return apiFetch<LoginResponse>('/auth/login', {
     method: 'POST',
     auth: false,
-    body: { email, password, token_name: 'Kintai Mobile' },
+    body: { email, password, token_name: 'Kontai Mobile' },
   });
 }
 

@@ -14,8 +14,8 @@ final class PwaController
         $base = rtrim(dirname($_SERVER['SCRIPT_NAME'] ?? '/'), '/');
 
         $data = [
-            'name'             => 'Kintai',
-            'short_name'       => 'Kintai',
+            'name'             => 'Kontai',
+            'short_name'       => 'Kontai',
             'description'      => 'Gestion de plannings et pointages',
             'start_url'        => $base . '/',
             'scope'            => $base . '/',
@@ -47,3 +47,4 @@ final class PwaController
         return Response::json($data)->withHeader('Content-Type', 'application/manifest+json');
     }
 }
+

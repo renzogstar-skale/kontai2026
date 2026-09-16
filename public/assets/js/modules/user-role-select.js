@@ -21,3 +21,4 @@
     select.addEventListener('change', sync);
     sync();
 }());
+

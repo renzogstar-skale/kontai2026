@@ -45,3 +45,4 @@ final class Card implements ComponentInterface
         return $html;
     }
 }
+

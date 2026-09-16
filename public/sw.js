@@ -1,4 +1,4 @@
-const CACHE = 'kintai-v4';
+const CACHE = 'kontai-v5';
 
 // Base de déploiement déduite du scope d'enregistrement (ex. '/kintai') plutôt
 // que codée en dur, pour fonctionner aussi bien à la racine du domaine que
@@ -105,3 +105,4 @@ async function cacheFirst(req) {
     return new Response('Offline', { status: 503 });
   }
 }
+

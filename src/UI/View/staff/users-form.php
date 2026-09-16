@@ -310,3 +310,4 @@ endforeach;
 <script src="<?= $BASE_URL ?>/assets/js/modules/user-form-live-check.js"></script>
 <script src="<?= $BASE_URL ?>/assets/js/modules/furigana-suggest.js"></script>
 <script src="<?= $BASE_URL ?>/assets/js/modules/user-role-select.js"></script>
+

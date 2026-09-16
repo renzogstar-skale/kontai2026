@@ -90,7 +90,7 @@ for ($h = 6; $h < 30; $h++) $ganttHours[] = $h % 24;
 <div class="pt-page">
 
     <div class="pt-header">
-        <div class="pt-brand">Kintai <small><?= htmlspecialchars($storeName) ?></small></div>
+        <div class="pt-brand">Kontai <small><?= htmlspecialchars($storeName) ?></small></div>
         <div class="pt-doc-info">
             <strong><?= __('planning') ?> — <?= __('timeline') ?></strong>
             <span><?= htmlspecialchars($periodLabel) ?></span>
@@ -251,3 +251,4 @@ for ($h = 6; $h < 30; $h++) $ganttHours[] = $h % 24;
 <script src="<?= $BASE_URL ?>/assets/js/modules/autoprint.js"></script>
 </body>
 </html>
+

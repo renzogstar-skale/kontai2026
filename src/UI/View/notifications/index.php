@@ -81,3 +81,4 @@ $typeIcons = [
         <?php endforeach; ?>
     </div>
 <?php endif; ?>
+

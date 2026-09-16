@@ -78,3 +78,4 @@ $storeChipColor = function (string $seed): string {
     })
     ->render()
 ?></div>
+

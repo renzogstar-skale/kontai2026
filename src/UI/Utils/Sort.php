@@ -58,3 +58,4 @@ final class Sort
             . htmlspecialchars($label) . '<span class="sort-icon">' . $icon . '</span></a></th>';
     }
 }
+

@@ -136,3 +136,4 @@ echo Flash::fromQuery('error', [
 <?php if (!$isSystem): ?>
 <script src="<?= $BASE_URL ?>/assets/js/modules/permission-editor.js"></script>
 <?php endif; ?>
+

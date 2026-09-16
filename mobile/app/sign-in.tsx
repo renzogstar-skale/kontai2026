@@ -27,7 +27,7 @@ export default function SignInScreen() {
 
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={styles.title}>Kintai</Text>
+      <Text style={styles.title}>Kontai</Text>
 
       <TextInput
         style={styles.input}

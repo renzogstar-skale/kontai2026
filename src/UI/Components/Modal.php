@@ -68,3 +68,4 @@ if (typeof window.openModal === "undefined") {
         return $html;
     }
 }
+

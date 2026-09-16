@@ -5,7 +5,7 @@
 /* ── Création rapide d'employé (modal) ────────── */
 (function () {
     var cfgEl  = document.getElementById('kintai-import-data');
-    var cfg    = cfgEl ? JSON.parse(cfgEl.textContent || '{}') : (window.KintaiImport || {});
+    var cfg    = cfgEl ? JSON.parse(cfgEl.textContent || '{}') : (window.KontaiImport || {});
     var BASE   = cfg.baseUrl   || '';
     var STORE  = cfg.storeId   || 0;
     var i18n   = cfg.i18n      || {};
@@ -190,7 +190,7 @@
 /* ── Filtres par type de conflit (table import) ─ */
 (function () {
     var cfgEl     = document.getElementById('kintai-import-data');
-    var cfg       = cfgEl ? JSON.parse(cfgEl.textContent || '{}') : (window.KintaiImport || {});
+    var cfg       = cfgEl ? JSON.parse(cfgEl.textContent || '{}') : (window.KontaiImport || {});
     var filterTpl = cfg.filterTpl || ':n';
 
     function updateCount() {
@@ -224,7 +224,7 @@
 /* ── Propagation des assignations manuelles ──── */
 (function () {
     var cfgEl = document.getElementById('kintai-import-data');
-    var cfg   = cfgEl ? JSON.parse(cfgEl.textContent || '{}') : (window.KintaiImport || {});
+    var cfg   = cfgEl ? JSON.parse(cfgEl.textContent || '{}') : (window.KontaiImport || {});
     var i18n  = cfg.i18n || {};
 
     document.addEventListener('change', function (e) {
@@ -283,3 +283,4 @@
         this.submit();
     });
 })();
+

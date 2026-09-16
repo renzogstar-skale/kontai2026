@@ -6,6 +6,37 @@
     <h2 class="page-header__title"><?= htmlspecialchars($title) ?></h2>
 </div>
 
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-bottom: 24px;">
+    <div class="card" style="padding: 16px;">
+        <div style="color: var(--color-text-muted); font-size: 13px; font-weight: 500; text-transform: uppercase; margin-bottom: 8px;">Total Requests</div>
+        <div style="display: flex; align-items: baseline; gap: 8px;">
+            <div style="font-size: 28px; font-weight: 700; color: var(--color-text);">156</div>
+            <div style="color: var(--color-success); display: flex; align-items: center;">▲</div>
+        </div>
+    </div>
+    <div class="card" style="padding: 16px;">
+        <div style="color: var(--color-text-muted); font-size: 13px; font-weight: 500; text-transform: uppercase; margin-bottom: 8px;">Pending Approval</div>
+        <div style="display: flex; align-items: baseline; gap: 8px;">
+            <div style="font-size: 28px; font-weight: 700; color: var(--color-text);">32</div>
+            <div style="color: var(--color-danger); display: flex; align-items: center;">▲</div>
+        </div>
+    </div>
+    <div class="card" style="padding: 16px;">
+        <div style="color: var(--color-text-muted); font-size: 13px; font-weight: 500; text-transform: uppercase; margin-bottom: 8px;">Approved Today</div>
+        <div style="display: flex; align-items: baseline; gap: 8px;">
+            <div style="font-size: 28px; font-weight: 700; color: var(--color-text);">18</div>
+            <div style="color: var(--color-success); display: flex; align-items: center;">▲</div>
+        </div>
+    </div>
+    <div class="card" style="padding: 16px;">
+        <div style="color: var(--color-text-muted); font-size: 13px; font-weight: 500; text-transform: uppercase; margin-bottom: 8px;">Denied</div>
+        <div style="display: flex; align-items: baseline; gap: 8px;">
+            <div style="font-size: 28px; font-weight: 700; color: var(--color-text);">5</div>
+            <div style="color: var(--color-danger); display: flex; align-items: center;">▼</div>
+        </div>
+    </div>
+</div>
+
 <div class="card">
     <div class="table-wrap">
         <table class="data-table">
@@ -47,3 +78,4 @@
         </table>
     </div>
 </div>
+

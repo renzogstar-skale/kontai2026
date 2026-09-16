@@ -20,3 +20,4 @@ if (!empty($downloadUrl)):
     <span class="pdf-preview-toolbar__hint"><?= __('print_hint') ?></span>
 </div>
 <?php endif; ?>
+

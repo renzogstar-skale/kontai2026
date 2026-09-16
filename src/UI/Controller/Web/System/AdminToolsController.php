@@ -24,3 +24,4 @@ class AdminToolsController extends Controller
         ]);
     }
 }
+

@@ -87,3 +87,4 @@ final class BundleSettingsController
         return file_exists($path) ? (require $path) : [];
     }
 }
+

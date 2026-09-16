@@ -62,3 +62,4 @@ final class Tabs implements ComponentInterface
         return $html;
     }
 }
+

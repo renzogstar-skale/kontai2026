@@ -48,3 +48,4 @@ ob_start();
 <?php echo Card::make()->header(__('reset_confirm_card_title'))->body(ob_get_clean())->render(); ?>
 
 <script>document.getElementById('reset-download-link').click();</script>
+

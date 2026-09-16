@@ -292,3 +292,4 @@ final class AdminRoleController
         return $slug;
     }
 }
+

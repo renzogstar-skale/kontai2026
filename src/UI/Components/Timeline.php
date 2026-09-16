@@ -386,3 +386,4 @@ final class Timeline implements ComponentInterface
         return $lum > 0.5 ? '#000000' : '#ffffff';
     }
 }
+

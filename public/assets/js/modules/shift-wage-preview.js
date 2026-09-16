@@ -100,3 +100,4 @@
 
     document.querySelectorAll('#shift-wage-preview').forEach(init);
 })();
+

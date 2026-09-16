@@ -23,3 +23,4 @@ class AdminSchedulingController extends Controller
         ]);
     }
 }
+

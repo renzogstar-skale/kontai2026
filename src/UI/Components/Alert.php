@@ -42,3 +42,4 @@ final class Alert implements ComponentInterface
         return $html;
     }
 }
+

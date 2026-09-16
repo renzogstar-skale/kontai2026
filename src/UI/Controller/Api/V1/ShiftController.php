@@ -84,3 +84,4 @@ final class ShiftController
         return Response::empty();
     }
 }
+

@@ -8,7 +8,7 @@
     <meta name="theme-color" content="#1a5c8c">
     <link rel="manifest" href="<?= route_url('pwa.manifest') ?>">
     <link rel="apple-touch-icon" href="<?= $BASE_URL ?>/assets/img/kintai-192.png">
-    <title><?= htmlspecialchars($title ?? 'Kintai') ?> — Kintai</title>
+    <title><?= htmlspecialchars($title ?? 'Kontai') ?> — Kontai</title>
     <link rel="stylesheet" href="<?= $BASE_URL ?>/assets/css/app.css">
     <script>(function(){var t=localStorage.getItem('kintai-theme');if(t)document.documentElement.dataset.theme=t;}());</script>
 </head>

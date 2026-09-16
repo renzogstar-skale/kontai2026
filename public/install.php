@@ -238,7 +238,7 @@ $defaultUsername = env('DB_USERNAME', 'root');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kintai — Setup</title>
+    <title>Kontai — Setup</title>
     <style>
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f1f5f9; color: #334155; min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 24px; }
@@ -285,7 +285,7 @@ $defaultUsername = env('DB_USERNAME', 'root');
 <body>
 <div class="card">
     <div class="card-header">
-        <h1>Kintai Setup</h1>
+        <h1>Kontai Setup</h1>
         <p>Configure your application in one step.</p>
     </div>
     <div class="card-body">
@@ -380,7 +380,7 @@ $defaultUsername = env('DB_USERNAME', 'root');
                 <label for="run_seeds">Run database seeders</label>
             </div>
 
-            <button type="submit" class="btn">Install Kintai</button>
+            <button type="submit" class="btn">Install Kontai</button>
         </form>
 
         <?php endif ?>
@@ -405,3 +405,4 @@ $defaultUsername = env('DB_USERNAME', 'root');
 </script>
 </body>
 </html>
+

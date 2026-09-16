@@ -3,7 +3,7 @@
 (function () {
     /* ── Configuration ─────────────────────────── */
     var _cfgEl = document.getElementById('kintai-timeline-data');
-    var cfg   = _cfgEl ? JSON.parse(_cfgEl.textContent || '{}') : (window.KintaiTimeline || {});
+    var cfg   = _cfgEl ? JSON.parse(_cfgEl.textContent || '{}') : (window.KontaiTimeline || {});
     var BASE  = cfg.baseUrl   || '';
     var CSRF  = cfg.csrfToken || '';
     var i18n  = cfg.i18n      || {};
@@ -189,3 +189,4 @@
         });
     }
 }());
+

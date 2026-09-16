@@ -280,3 +280,4 @@ $section = function (string $titleKey, string $body, string $span = '') use ($as
     <?php $section('assign_to_store', ob_get_clean(), 'card--c1 card--r4 card--full'); ?>
     <?php endif; ?>
 </div>
+

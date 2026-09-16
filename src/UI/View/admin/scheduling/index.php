@@ -9,6 +9,37 @@
     </div>
 </div>
 
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-bottom: 24px;">
+    <div class="card" style="padding: 16px;">
+        <div style="color: var(--color-text-muted); font-size: 13px; font-weight: 500; text-transform: uppercase; margin-bottom: 8px;">Published Shifts</div>
+        <div style="display: flex; align-items: baseline; gap: 8px;">
+            <div style="font-size: 28px; font-weight: 700; color: var(--color-text);">342</div>
+            <div style="color: var(--color-success); display: flex; align-items: center;">▲</div>
+        </div>
+    </div>
+    <div class="card" style="padding: 16px;">
+        <div style="color: var(--color-text-muted); font-size: 13px; font-weight: 500; text-transform: uppercase; margin-bottom: 8px;">Open Shifts</div>
+        <div style="display: flex; align-items: baseline; gap: 8px;">
+            <div style="font-size: 28px; font-weight: 700; color: var(--color-text);">12</div>
+            <div style="color: var(--color-warning); display: flex; align-items: center;">▲</div>
+        </div>
+    </div>
+    <div class="card" style="padding: 16px;">
+        <div style="color: var(--color-text-muted); font-size: 13px; font-weight: 500; text-transform: uppercase; margin-bottom: 8px;">Call-offs</div>
+        <div style="display: flex; align-items: baseline; gap: 8px;">
+            <div style="font-size: 28px; font-weight: 700; color: var(--color-text);">4</div>
+            <div style="color: var(--color-danger); display: flex; align-items: center;">▼</div>
+        </div>
+    </div>
+    <div class="card" style="padding: 16px;">
+        <div style="color: var(--color-text-muted); font-size: 13px; font-weight: 500; text-transform: uppercase; margin-bottom: 8px;">Overtime Risk</div>
+        <div style="display: flex; align-items: baseline; gap: 8px;">
+            <div style="font-size: 28px; font-weight: 700; color: var(--color-text);">7</div>
+            <div style="color: var(--color-danger); display: flex; align-items: center;">▲</div>
+        </div>
+    </div>
+</div>
+
 <div class="card">
     <div class="table-wrap">
         <table class="data-table">
@@ -51,3 +82,4 @@
         </table>
     </div>
 </div>
+

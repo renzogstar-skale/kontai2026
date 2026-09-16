@@ -24,3 +24,4 @@ class AdminIncidentsController extends Controller
         ]);
     }
 }
+

@@ -174,3 +174,4 @@ $exportQuery = $filter_store_id !== 0 ? '?store_id=' . $filter_store_id : '';
 
 <script src="<?= $BASE_URL ?>/assets/js/modules/kana-search.js"></script>
 <script src="<?= $BASE_URL ?>/assets/js/modules/users-list-search.js"></script>
+

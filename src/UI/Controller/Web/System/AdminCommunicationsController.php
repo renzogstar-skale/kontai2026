@@ -23,3 +23,4 @@ class AdminCommunicationsController extends Controller
         ]);
     }
 }
+

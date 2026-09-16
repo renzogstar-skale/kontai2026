@@ -11,3 +11,4 @@
         el.style.setProperty('--type-border', c + '40');
     });
 })();
+

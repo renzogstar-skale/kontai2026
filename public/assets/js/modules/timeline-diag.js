@@ -1,7 +1,7 @@
 'use strict';
 (function () {
     var _cfgEl = document.getElementById('kintai-timeline-data');
-    var i18n = (_cfgEl ? JSON.parse(_cfgEl.textContent || '{}') : (window.KintaiTimeline || {})).i18n || {};
+    var i18n = (_cfgEl ? JSON.parse(_cfgEl.textContent || '{}') : (window.KontaiTimeline || {})).i18n || {};
 
     var tip = document.createElement('div');
     tip.id = 'sd-diag-tip';
@@ -59,3 +59,4 @@
 
     document.addEventListener('scroll', function () { tip.classList.remove('open'); }, true);
 }());
+

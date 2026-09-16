@@ -324,3 +324,4 @@ echo Card::make()
 <?php endif; ?>
 
 <script src="<?= $BASE_URL ?>/assets/js/modules/dashboard.js"></script>
+

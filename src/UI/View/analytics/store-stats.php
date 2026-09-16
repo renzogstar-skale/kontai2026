@@ -417,3 +417,4 @@ function deltaChip(mixed $val, bool $invertColor = false, string $suffix = '%'):
 
 <?php endif; ?>
 <script src="<?= $BASE_URL ?>/assets/js/modules/stats-charts.js"></script>
+

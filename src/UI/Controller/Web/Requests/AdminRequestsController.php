@@ -106,3 +106,4 @@ final class AdminRequestsController
         ], 'layout.app'));
     }
 }
+

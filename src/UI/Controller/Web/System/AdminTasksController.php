@@ -24,3 +24,4 @@ class AdminTasksController extends Controller
         ]);
     }
 }
+

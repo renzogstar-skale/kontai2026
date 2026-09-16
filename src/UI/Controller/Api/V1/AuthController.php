@@ -134,3 +134,4 @@ final class AuthController
         return $token;
     }
 }
+
