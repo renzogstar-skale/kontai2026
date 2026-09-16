@@ -16,24 +16,17 @@ export function AuthProvider({ children }: PropsWithChildren) {
   const [user, setUser] = useState<authApi.User | null>(null);
   const [isLoading, setIsLoading] = useState(true);
 
-  // Au démarrage : un token déjà stocké (session précédente) est revalidé auprès
-  // de /auth/me plutôt que supposé valide, au cas où il a expiré ou été révoqué
-  // entre-temps (autre appareil, /profile côté web...).
   useEffect(() => {
-    (async () => {
-      const token = await getToken();
-      if (!token) {
-        setIsLoading(false);
-        return;
-      }
-      try {
-        setUser(await authApi.me());
-      } catch {
-        await clearToken();
-      } finally {
-        setIsLoading(false);
-      }
-    })();
+    // DEMO MODE: Bypass auth completely and provide a mock user
+    setUser({
+      id: 1,
+      first_name: 'RENZO',
+      last_name: 'GIOVINE',
+      email: 'renzo@demo.com',
+      role: 'staff',
+      stores: []
+    } as any);
+    setIsLoading(false);
   }, []);
 
   const signIn = async (email: string, password: string) => {

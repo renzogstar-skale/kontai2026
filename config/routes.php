@@ -31,6 +31,22 @@ use kintai\UI\Controller\Web\System\BundleSettingsController;
 use kintai\UI\Controller\Web\System\LanguageController;
 use kintai\UI\Controller\Web\System\MailTestController;
 use kintai\UI\Controller\Web\System\OwnerSettingsController;
+
+use kintai\UI\Controller\Web\System\AdminOverviewController;
+use kintai\UI\Controller\Web\System\AdminLiveOpsController;
+use kintai\UI\Controller\Web\System\AdminTeamController;
+use kintai\UI\Controller\Web\System\AdminSchedulingController;
+use kintai\UI\Controller\Web\System\AdminTimeAttendanceController;
+use kintai\UI\Controller\Web\System\AdminTasksController;
+use kintai\UI\Controller\Web\System\AdminLocationsController;
+use kintai\UI\Controller\Web\System\AdminIncidentsController;
+use kintai\UI\Controller\Web\System\AdminRequestsControllerNew;
+use kintai\UI\Controller\Web\System\AdminCommunicationsController;
+use kintai\UI\Controller\Web\System\AdminReportsController;
+use kintai\UI\Controller\Web\System\AdminToolsController;
+use kintai\UI\Controller\Web\System\AdminAuditLogController;
+use kintai\UI\Controller\Web\System\AdminSettingsController;
+
 use kintai\Core\Middleware\AuthMiddleware;
 use kintai\Core\Middleware\OwnerOnlyMiddleware;
 use kintai\Core\Middleware\PermissionMiddleware;
@@ -157,6 +173,23 @@ $router->post('/admin/dashboard/widgets', [HomeController::class, 'saveDashboard
 // =============================================================================
 
 $router->group('/admin', function ($r) {
+
+    // --- NEW MODULAR WORKFORCE DASHBOARDS ---
+    $r->get('/overview', [AdminOverviewController::class, 'index'], name: 'admin.overview', permission: 'public');
+    $r->get('/live-ops', [AdminLiveOpsController::class, 'index'], name: 'admin.live_ops', permission: 'public');
+    $r->get('/team', [AdminTeamController::class, 'index'], name: 'admin.team', permission: 'public');
+    $r->get('/team/{id}', [AdminTeamController::class, 'profile'], name: 'admin.team.profile', permission: 'public');
+    $r->get('/scheduling', [AdminSchedulingController::class, 'index'], name: 'admin.scheduling', permission: 'public');
+    $r->get('/time-attendance', [AdminTimeAttendanceController::class, 'index'], name: 'admin.time_attendance', permission: 'public');
+    $r->get('/tasks', [AdminTasksController::class, 'index'], name: 'admin.tasks', permission: 'public');
+    $r->get('/locations', [AdminLocationsController::class, 'index'], name: 'admin.locations', permission: 'public');
+    $r->get('/incidents', [AdminIncidentsController::class, 'index'], name: 'admin.incidents', permission: 'public');
+    $r->get('/requests', [AdminRequestsControllerNew::class, 'index'], name: 'admin.requests', permission: 'public');
+    $r->get('/communications', [AdminCommunicationsController::class, 'index'], name: 'admin.communications', permission: 'public');
+    $r->get('/reports', [AdminReportsController::class, 'index'], name: 'admin.reports', permission: 'public');
+    $r->get('/tools', [AdminToolsController::class, 'index'], name: 'admin.tools', permission: 'public');
+    $r->get('/audit-log', [AdminAuditLogController::class, 'index'], name: 'admin.audit_log', permission: 'public');
+    $r->get('/settings', [AdminSettingsController::class, 'index'], name: 'admin.settings', permission: 'public');
 
     // Configuration organisation
     $r->get('/owner-settings',  [OwnerSettingsController::class, 'show'], middleware: [OwnerOnlyMiddleware::class], name: 'admin.owner_settings', permission: 'public');

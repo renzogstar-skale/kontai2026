@@ -2,7 +2,7 @@
 $_bnActive = '';
 if ($showAdminMenu) {
     if (str_starts_with($path, '/admin/shifts') && !str_contains($path, 'shift-type')) $_bnActive = 'shifts';
-    elseif (str_starts_with($path, '/admin/users') || str_starts_with($path, '/admin/stores')) $_bnActive = 'team';
+    elseif (str_starts_with($path, '/admin/team') || str_starts_with($path, '/admin/users') || str_starts_with($path, '/admin/stores')) $_bnActive = 'team';
     elseif (str_starts_with($path, '/admin/timeoff')) $_bnActive = 'requests';
     elseif (str_starts_with($path, '/admin/messages')) $_bnActive = 'messages';
     elseif (str_starts_with($path, '/admin/swap-requests')) $_bnActive = 'swaps';
@@ -34,7 +34,7 @@ $routeVisible = $route_visible ?? fn(string $routeName): bool => true;
 // exception si la route n'est pas enregistrée).
 $_bnAdminPool = [
         'shifts'        => ['icon' => 'calendar', 'label' => __('shifts'),        'href' => fn() => route_url('admin.shifts.timeline'), 'feat' => 'shifts',        'route' => 'admin.shifts.timeline'],
-        'team'          => ['icon' => 'users',     'label' => __('team'),          'href' => fn() => route_url('admin.users'),           'feat' => null,            'route' => 'admin.users'],
+        'team'          => ['icon' => 'users',     'label' => __('team'),          'href' => fn() => route_url('admin.team'),           'feat' => null,            'route' => 'admin.team'],
         'requests'      => ['icon' => 'clipboard', 'label' => __('requests'),      'href' => fn() => route_url('admin.timeoff'),         'feat' => 'timeoff',       'route' => 'admin.timeoff'],
         'messages'      => ['icon' => 'message',   'label' => __('messages'),      'href' => fn() => route_url('admin.messages'),        'feat' => 'messages',      'route' => 'admin.messages'],
         'swaps'         => ['icon' => 'arrows',    'label' => __('swaps'),         'href' => fn() => route_url('admin.swap_requests'),   'feat' => 'swaps',         'route' => 'admin.swap_requests'],

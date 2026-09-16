@@ -90,6 +90,7 @@
     <?php endif; ?>
 
     <?php include __DIR__ . '/partials/_confirm-modal.php'; ?>
+    <?php include __DIR__ . '/partials/_command_palette.php'; ?>
 </body>
 
 </html>
