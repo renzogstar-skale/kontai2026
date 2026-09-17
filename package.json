@@ -1,0 +1,28 @@
+{
+  "name": "kontai",
+  "version": "1.0.0",
+  "description": "🌐 **English** · [Français](docs/i18n/README.fr.md) · [日本語](docs/i18n/README.ja.md)",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AudricSan/Kintai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AudricSan/Kintai/issues"
+  },
+  "homepage": "https://github.com/AudricSan/Kintai#readme",
+  "devDependencies": {
+    "@types/react": "~19.2.4",
+    "typescript": "~6.0.3"
+  }
+}
